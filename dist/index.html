@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+<div class="chart-container">
+
+    <div class="row">
+
+        <div class="choloropleth_title_block">
+            <h2>Number of days</h2>
+            <div class="subtitle">This is the subtile</div>
+        </div>
+
+    </div>
+
+    <div id="svg_container">
+    	
+        <div class="quartet"></div>
+
+        <div class="quartet"></div>
+
+        <div class="quartet"></div>
+
+        <div class="quartet"></div>
+    	
+    </div>
+
+	<div class="keyBox row">
+
+	    <div class="keyText">Days</div>
+
+	    <div id="keyContainer"></div>
+
+	</div>
+
+	<div class="tooltip"></div>
+
+
+    <div class="row notes">
+		<!--h2>Notes</h2>
+		<div class="row">The data is ...</div-->
+		<small>Source: Guardian graphic</small>
+	</div>
+
+</div>
+
+	<script src="bundle.js"></script>
+    <script src="https://interactive.guim.co.uk/libs/iframe-messenger/iframeMessenger.js"></script>
+    <script>
+        iframeMessenger.enableAutoResize();
+    </script>
+    
+</body>
+</html>
